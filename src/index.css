@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+:root {
+  --main-font: 'Poppins', sans-serif;
+
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.253);
+  font-family: var(--main-font);
+
+}
+
+ul,
+li,
+a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.navbar-nav {
+  --bs-nav-link-color: black;
+}
+
+.nav-bg {
+  background-color: rgb(146, 144, 144);
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: transparent;
+}
+
+.li-bg {
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+.li-bg:hover {
+  color: rgb(13, 202, 240) !important;
+  transform: translateX(20px);
+  transition: 0.3s all;
+}
+
+.bg-reg {
+  background-image: url("./Components/Assets/registerBg.jpeg");
+  background-size: cover;
+  background-position: top;
+}
